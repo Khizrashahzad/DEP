@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+ html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+body {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("1.jpg");
+}
+.logo img{
+  float: left;
+  width: 150px;
+  height: auto;
+}
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 500px;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  color: white
+  
+}
+
+/* Full-width input fields */
+input[type=email], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: black;
+  color: white;
+}
+
+input[type=email]:focus, input[type=password]:focus {
+  background-color: black;
+  outline: none;
+  color: white;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: black;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+header{
+  background: black;
+  height: 15vh;
+  background-size: cover;
+  background-position: center;
+}
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.logo img{
+  float: left;
+  width: 150px;
+  height: auto;
+}
+.main{
+  max-width: 1200px;
+  margin: auto;
+}
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.title h1{
+  color: #fff;
+  font-size: 70px;
+}
+.button{
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.btn{
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+.btn:hover{
+  background-color: #fff;
+    color: #000;
+}
+
+
+</style>
+</head>
+<body>
+   <header>
+      <div class="main">
+        <div class="logo">
+          <img src="logo.png">
+        </div>
+        <ul>
+          <li class="active"> <a href="Internship.html">Home</a></li>
+          <li> <a href="Protfolio.html">Protfolio</a></li>
+          <li> <a href="Hobby.html">Hobbies</a></li>
+          <li> <a href="Contact.html">Contact-Us</a></li>
+        </ul>
+      </div>
+    </header>
+<div class="bg-img">
+  <form action="http://localhost/Khizra%20Web/login.php" method="Post" class="container">
+    <h1>Contact-us</h1>
+
+    <label for="email"><b>Email</b></label>
+    <h4>Kskd@gmail.com</h4>
+
+    <label for="psw"><b>Phone-no</b></label>
+    <h4>0300-8123478</h4>
+    
+    <button type="submit" class="btn">Contact</button>
+  </form>
+</div>
+</body>
+</html>
